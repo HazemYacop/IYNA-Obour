@@ -274,3 +274,40 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize the first slide
   showSlide(currentSlide);
 });
+
+function showPopup(message) {
+  const popup = document.createElement("div");
+  popup.className = "popup-message";
+  popup.innerHTML = `<p>${message}</p>`;
+
+  document.body.appendChild(popup);
+
+  setTimeout(() => {
+      popup.classList.add("show");
+  }, 100);
+
+  setTimeout(() => {
+      popup.classList.remove("show");
+      setTimeout(() => {
+          popup.remove();
+      }, 500);
+  }, 10000);
+}
+
+// Function to get query parameter from URL
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const message = getQueryParam("msg");
+  if (message) {
+      showPopup(decodeURIComponent(message));
+
+      // Remove the query parameter from the URL after displaying
+      const newUrl = window.location.pathname;
+      window.history.replaceState({}, document.title, newUrl);
+  }
+});
+
