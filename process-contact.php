@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     } catch (Exception $e) {
         $msg = "Message sending failed. Please try again.";
     }
-    header("Location: index.php?msg=" . urlencode($msg));
+    header("Location: index.php");
     exit();
 }
 ?>

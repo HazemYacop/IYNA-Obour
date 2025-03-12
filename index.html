@@ -333,7 +333,7 @@
             <h2 class="contact-title">Contact Us</h2>
             <h3 class="contact-subtitle">Send us a message, we will get back to you</h3>
           </div>
-          <form action="process-contact.php" method="POST" class="contact-form" id="contact-form">
+          <form class="contact-form" id="contact-form">
             <div class="contact-row">
               <div class="contact-field-group">
                 <label for="first-name">First Name</label>
@@ -361,6 +361,7 @@
               </div>
             </div>
             <input type="submit" value="Submit Message">
+            <div id="contact-message" class="form-message"></div>
           </form>
         </div>
       </section>
@@ -374,9 +375,10 @@
           </h2>
         </div>
         <div class="newsletter-form-container">
-          <form action="process-newsletter.php" method="POST" class="newsletter-form" id="newsletter-form">
+          <form class="newsletter-form" id="newsletter-form">
             <input type="email" placeholder="Email Address" class="newsletter-email" id="newsletter-email" name="newsletter-email" required>
             <input type="submit" class="newsletter-submit" id="newsletter-submit" value="Subscribe">
+            <div id="newsletter-message" class="form-message"></div> <!-- Success/Error Message -->
           </form>
         </div>
       </section>
@@ -446,15 +448,5 @@
   <div class="developer-credit">Made with ❤️ love by <a href="https://github.com/HazemYacop">@HazemYacop</a></div>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./scripts/script.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const popupMessage = "<?php echo $_SESSION['popup_message'] ?? ''; ?>";
-        <?php unset($_SESSION['popup_message']); ?>
-        
-        if (popupMessage) {
-            showPopup(popupMessage);
-        }
-    });
-  </script>
 </body>
 </html>

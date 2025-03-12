@@ -21,6 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $msg = "Something Went Wrong. Please Try Again!";
 }
 
-header("Location: index.php?msg=" . urlencode($msg));
+header("Location: index.php");
 exit();
 ?>
