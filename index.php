@@ -161,12 +161,9 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Row 2 -->
-          <div class="team-row">
             <div class="team-member-card">
               <img src="./assets/habiba-roushdy.png" alt="Habiba Roushdy" class="member-image">
-              <div class="member-info">
+              <div class="member-info highlight-frame">
                 <div class="member-role">Vice Presedent</div>
                 <div class="member-name">Habiba Roushdy</div>
                 <div class="member-socials">
@@ -182,7 +179,7 @@
             </div>
             <div class="team-member-card">
               <img src="./assets/kenzy-hesham.png" alt="Kenzy Hesham" class="member-image">
-              <div class="member-info">
+              <div class="member-info highlight-frame">
                 <div class="member-role">Vice Presedent</div>
                 <div class="member-name">Kenzy Hesham</div>
                 <div class="member-socials">
@@ -196,29 +193,11 @@
                 </div>
               </div>
             </div>
-            <div class="team-member-card">
-              <img src="./assets/hazem-karam.jpg" alt="Hazem Karam" class="member-image">
-              <div class="member-info">
-                <div class="member-role">Web Developer | UI/UX Designer</div>
-                <div class="member-name">Hazem Karam</div>
-                <div class="member-socials">
-                  <a href="https://wa.me/+201150169348?text=Hi Hazem, I came from IYNA Obour Chapter website" target="_blank" class="member-whatsapp">
-                    <i class="fa-brands fa-square-whatsapp"></i>
-                  </a>
-                  <a href="mailto:hazemyacopbusiness@gmail.com" class="member-email">
-                    <i class="fa-solid fa-envelope"></i>
-                  </a>
-                  <a class="member-info-trigger"
-                     onclick="openModal('Hazem Karam','Web Developer','The Web Developer Of IYNA Obour Website!','./assets/hazem-karam.png')">
-                    <i class="fa-solid fa-circle-info"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
-          <!-- Row 3 -->
+          <!-- Row 2 -->
           <div class="team-row">
-            <div class="team-member-card">
+
+          <div class="team-member-card">
               <img src="./assets/ans-abdeltawab.png" alt="Ans Abdeltawab" class="member-image">
               <div class="member-info">
                 <div class="member-role">Head Graphic Design</div>
@@ -238,19 +217,72 @@
               </div>
             </div>
             <div class="team-member-card">
-              <img src="./assets/ahmed-samy.png" alt="Ahmed Samy" class="member-image">
+              <img src="./assets/hazem-karam.jpg" alt="Hazem Karam" class="member-image">
               <div class="member-info">
-                <div class="member-role">Head Video Editing</div>
-                <div class="member-name">Ahmed Samy</div>
+                <div class="member-role">Web Developer | UI/UX Designer</div>
+                <div class="member-name">Hazem Karam</div>
                 <div class="member-socials">
-                  <a href="https://wa.me/+201097042911?text=Hi Ahmed, I came from IYNA Obour Chapter website" target="_blank" class="member-whatsapp">
+                  <a href="https://wa.me/+201150169348?text=Hi Hazem, I came from IYNA Obour Chapter website" target="_blank" class="member-whatsapp">
                     <i class="fa-brands fa-square-whatsapp"></i>
                   </a>
-                  <a href="mailto:ahmedsamy1758@gmail.com" class="member-email">
+                  <a href="mailto:hazemyacopbusiness@gmail.com" class="member-email">
                     <i class="fa-solid fa-envelope"></i>
                   </a>
                   <a class="member-info-trigger"
-                     onclick="openModal('Ahmed Samy','Head Video Editing','Tech enthusiast bridging knowledge, creativity, and storytelling. Connecting science, creativity, and personal growth through video editing.','./assets/ahmed-samy.png')">
+                     onclick="openModal('Hazem Karam','Web Developer','Hi, I\'m Hazem! I\'m a passionate full-stack developer and UI/UX designer who loves crafting seamless digital experiences. I enjoy blending technical expertise with creative design to build intuitive and user-friendly applications. My focus is always on innovation, problem-solving, and user-centered design, and I\'m constantly exploring new technologies to enhance the digital landscape.','./assets/hazem-karam.jpg')">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="team-member-card">
+              <img src="./assets/eyad-ahmed.png" alt="Eyad Ahmed" class="member-image">
+              <div class="member-info">
+                <div class="member-role">Head of HR</div>
+                <div class="member-name">Eyad A. Khedr</div>
+                <div class="member-socials">
+                  <a href="https://wa.me/+201061828534?text=Hi Eyad, I came from IYNA Obour Chapter website" target="_blank" class="member-whatsapp">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                  </a>
+                  <a href="mailto:eyada0103@gmail.com" class="member-email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <a class="member-info-trigger"
+                     onclick="openModal('Eyad A. Khedr','Head of HR','Head of HR @ IYNA, Obour STEM School  <br><br> Passionate about blending computer science and business strategy to drive growth. Natural leader and organizer, fueled by tackling complex challenges and delivering results that matter.','./assets/eyad-ahmed.png')">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="team-member-card">
+              <img src="./assets/yahia-abdelaziz.png" alt="Yahia Abdelaziz" class="member-image">
+              <div class="member-info">
+                <div class="member-role">Head Academics</div>
+                <div class="member-name">Yahia Abdelaziz</div>
+                <div class="member-socials">
+                  <a href="#" class="member-email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <a href="#" class="member-info-trigger">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Row 3 -->
+          <div class="team-row">
+          <div class="team-member-card">
+              <img src="./assets/zeyad-mohamed.jpg" alt="Zeyad Mohamed" class="member-image">
+              <div class="member-info">
+                <div class="member-role">Vice Head HR</div>
+                <div class="member-name">Zeyad Mohamed</div>
+                <div class="member-socials">
+                  <a href="mailto:ziad.2123025@stemobour.moe.edu.eg" class="member-email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <a class="member-info-trigger"
+                     onclick="openModal('Zeyad Mohamed Abdelhay','Vice Head HR','A junior Obour STEM School student passionate about computational biology and vice head HR of IYNA Obour Chapter','./assets/zeyad-mohamed.jpg')">
                     <i class="fa-solid fa-circle-info"></i>
                   </a>
                 </div>
@@ -272,15 +304,19 @@
               </div>
             </div>
             <div class="team-member-card">
-              <img src="./assets/yahia-abdelaziz.png" alt="Yahia Abdelaziz" class="member-image">
+              <img src="./assets/ahmed-mostafa.jpg" alt="Ahmed Mostafa" class="member-image">
               <div class="member-info">
-                <div class="member-role">Head Academics</div>
-                <div class="member-name">Yahia Abdelaziz</div>
+                <div class="member-role">Head Of Marketing</div>
+                <div class="member-name">Ahmed Mostafa</div>
                 <div class="member-socials">
-                  <a href="#" class="member-email">
+                  <a href="https://wa.me/+201062949401?text=Hi Ahmed, I came from IYNA Obour Chapter website" target="_blank" class="member-whatsapp">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                  </a>
+                  <a href="mailto:ahmed.2123009@stemobour.moe.edu.eg" class="member-email">
                     <i class="fa-solid fa-envelope"></i>
                   </a>
-                  <a href="#" class="member-info-trigger">
+                  <a class="member-info-trigger"
+                     onclick="openModal('Ahmed Mostafa','Head Of Marketing','Ahmed Mostafa is a student at Obour STEM School and the Head of Marketing at IYNA Obour Chapter and other clubs.','./assets/ahmed-mostafa.jpg')">
                     <i class="fa-solid fa-circle-info"></i>
                   </a>
                 </div>
@@ -390,7 +426,7 @@
         <div class="footer-socials">
           <a href="https://www.facebook.com/IYNAObour"><i class="fa-brands fa-facebook"></i></a>
           <a href="https://www.instagram.com/iyna_obourchapter?igsh=ZTZ3dDVoZ3V5YWhz"><i class="fa-brands fa-instagram"></i></a>
-          <a ><i class="fa-solid fa-phone"></i></a>
+          <a href="https://www.linkedin.com/company/iyna-obour-stem-chapter/"><i class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
     </footer>

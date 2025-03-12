@@ -435,6 +435,7 @@ body {
   color: #fff;
   font-family: "Ubuntu", sans-serif;
   font-size: 1em;
+  cursor: not-allowed;
   transition: background 0.3s;
 }
 

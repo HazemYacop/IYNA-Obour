@@ -48,8 +48,10 @@ body {
 .coming-soon-section {
   margin: 3em 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2em;
   height: 50vh;
 }
 
@@ -58,6 +60,25 @@ body {
   font-size: 4em;
   font-weight: 700;
   text-align: center;
+}
+
+#open-form-button {
+  margin-top: 1em;
+  padding: 0.75em 1.5em;
+  background: #007eff;
+  border: 1px solid #007eff;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+  transition: .2s;
+}
+
+#open-form-button:hover {
+  background: transparent;
 }
 
 .page-wrapper {
