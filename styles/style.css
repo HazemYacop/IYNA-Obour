@@ -1048,3 +1048,9 @@ body {
   visibility: visible;
   transform: translateX(-50%) translateY(-10px);
 }
+
+.developer-credit {
+  text-align: center;
+  background: #03061b;
+  padding-bottom: 1em;
+}

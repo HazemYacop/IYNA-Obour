@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="IYNA Obour Chapter official website: bridging neuroscience education for youth in Obour and beyond.">
+  <meta name="description" content="IYNA Obour Chapter official website. Bridging neuroscience education for youth in Obour and beyond.">
   <meta name="keywords" content="neuroscience, youth, IYNA, Obour, research, education">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IYNA Obour Chapter Official Website</title>
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="./styles/style.css">
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="https://kit.fontawesome.com/82432b4eb3.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" async></script>
+  <script src="https://kit.fontawesome.com/82432b4eb3.js" crossorigin="anonymous" async></script>
 </head>
 <body>
   <div class="page-wrapper">
@@ -406,10 +406,10 @@
         </div>
       </div>
     </div>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./scripts/script.js"></script>
   </div>
+  <div class="developer-credit">Made with ❤️ love by <a href="https://github.com/HazemYacop">@HazemYacop</a></div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./scripts/script.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
         const popupMessage = "<?php echo $_SESSION['popup_message'] ?? ''; ?>";
