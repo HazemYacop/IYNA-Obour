@@ -528,7 +528,6 @@ body {
   align-items: center;
   gap: 3.5em;
   padding: 4em 0;
-  max-width: 100vw;
 }
 
 .contact-intro {
@@ -564,6 +563,7 @@ body {
   flex-direction: column;
   gap: 0.5em;
   flex: 1;
+  min-width: 200px;
 }
 
 .contact-field-group > label {
@@ -975,8 +975,21 @@ body {
     width: 10em;
     height: 10em;
   }
+  #contact-form {
+    gap: 2em;
+  }
+  #contact-section {
+    padding: 4em 0;
+  }
   .contact-row {
-    gap: 3.5em;
+    gap: 2em;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-field-group {
+    min-width: 0;
+    width: 80vw;
+    gap: 0.1em;
   }
   .contact-title {
     font-size: 1.5em;
