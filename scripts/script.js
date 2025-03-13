@@ -112,14 +112,39 @@ const navLinks = document.getElementById("nav-links");
 const closeNavButton = document.getElementById("close-nav");
 const mainNavList = document.getElementById("main-nav-list");
 
+// Function to disable scrolling
+function disableScroll() {
+  document.body.style.overflow = "hidden";
+  document.documentElement.style.overflow = "hidden";
+}
+
+// Function to enable scrolling
+function enableScroll() {
+  document.body.style.overflow = "auto";
+  document.documentElement.style.overflow = "auto";
+}
+
+// Open menu and disable scrolling
 hamburger.addEventListener("click", () => {
   navLinks.classList.add("show-links");
   mainNavList.classList.add("show-menu");
+  disableScroll();
 });
 
+// Close menu and re-enable scrolling
 closeNavButton.addEventListener("click", () => {
   navLinks.classList.remove("show-links");
   mainNavList.classList.remove("show-menu");
+  enableScroll();
+});
+
+// Close menu when clicking outside and re-enable scrolling
+document.addEventListener("click", (event) => {
+  if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+    navLinks.classList.remove("show-links");
+    mainNavList.classList.remove("show-menu");
+    enableScroll();
+  }
 });
 
 /****************************************************
