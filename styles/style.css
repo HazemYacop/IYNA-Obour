@@ -1064,3 +1064,25 @@ body {
   background: #03061b;
   padding-bottom: 1em;
 }
+
+/* SCROLLBAR STYLING (For Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Scrollbar track (the background) */
+::-webkit-scrollbar-track {
+  background: #000113; /* Dark background */
+  border-radius: 5px;
+}
+
+/* Scrollbar handle (the moving part) */
+::-webkit-scrollbar-thumb {
+  background: #007eff; /* Blue color (matches your site) */
+  border-radius: 5px;
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0056b3; /* Slightly darker blue */
+}
