@@ -492,6 +492,13 @@ body {
   .hero-scroll {
     height: 20vh;
   }
+  #page-heading {
+    font-size: 2.5em;
+  }
+  #coming-soon-heading {
+    font-size: 2.5em;
+    padding: 0 1em;
+  }
   .footer-links {
     flex-direction: row;
     flex-wrap: wrap;
